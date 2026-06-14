@@ -596,7 +596,7 @@ def train_fatigue_model():
             min_samples_leaf=2
         ),
         "RandomForest": RandomForestRegressor(
-            n_estimator=100,
+            n_estimators=100,
             random_state=42,
             min_samples_leaf=2
         ),
