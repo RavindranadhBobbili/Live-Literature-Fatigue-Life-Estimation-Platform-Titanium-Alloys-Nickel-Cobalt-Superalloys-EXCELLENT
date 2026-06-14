@@ -591,12 +591,12 @@ def train_fatigue_model():
 
     models = {
         "ExtraTrees": ExtraTreesRegressor(
-            n_estimators=500,
+            n_estimators=100,
             random_state=42,
             min_samples_leaf=2
         ),
         "RandomForest": RandomForestRegressor(
-            n_estimators=400,
+            n_estimator=100,
             random_state=42,
             min_samples_leaf=2
         ),
@@ -627,7 +627,7 @@ def train_fatigue_model():
         mae = mean_absolute_error(y_test, pred)
         rmse = math.sqrt(mean_squared_error(y_test, pred))
 
-        cv = KFold(n_splits=5, shuffle=True, random_state=42)
+        cv = KFold(n_splits=3, shuffle=True, random_state=42)
         cv_scores = cross_val_score(pipe, X, y, cv=cv, scoring="r2")
 
         metrics.append({
