@@ -1,6 +1,11 @@
 # Live-Literature-Fatigue-Life-Estimation-Platform-Titanium-Alloys-Nickel-Cobalt-Superalloys-EXCELLENT
 A production-style AI/ML platform for fatigue-life prediction using literature-derived fatigue data, physics-informed feature engineering, live literature extraction, and deployable machine learning workflows.  
 
+Deployed AeroEngine FatigueGPT on Render Cloud — a live Flask/ML platform for fatigue-life prediction, dataset generation, model training, uncertainty estimation, REST API prediction, and CSV download.
+
+Live deployed AI/ML platform:
+https://live-literature-fatigue-life-estimation.onrender.com/
+
 # Literature-to-Model Fatigue Life Intelligence Platform for Titanium Alloys and Superalloys
 
 A production-style AI/ML platform for fatigue-life prediction using literature-derived fatigue data, physics-informed feature engineering, live literature extraction, and deployable machine learning workflows.
